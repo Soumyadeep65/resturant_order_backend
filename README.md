@@ -16,9 +16,9 @@ source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
 4. Database Setup:
 
-Create a PostgreSQL database.
+a. Create a PostgreSQL database.
 
-Configure database settings in settings.py:
+b. Configure database settings in settings.py:
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -29,13 +29,13 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-Run Migrations:
+5. Run Migrations:
 python manage.py migrate
-Create Superuser (Optional):
+6. Create Superuser (Optional):
 python manage.py createsuperuser
-Run Development Server:
+7. Run Development Server:
 python manage.py runserver
-The server will start at http://localhost:8000/.
+# The server will start at http://localhost:8000/.
 APIs
 Orders API: /api/orders/
 Products API: /api/products/
