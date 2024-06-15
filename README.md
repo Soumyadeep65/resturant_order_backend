@@ -1,21 +1,20 @@
-This repository contains a Django backend application for managing restaurant orders. It includes APIs for handling orders, products, and user authentication.
+# This repository contains a Django backend application for managing restaurant orders. It includes APIs for handling orders, products, and user authentication.
 
-Prerequisites
-Before running the application, ensure you have the following installed:
-
-Python 3.x
-PostgreSQL
-pip (Python package installer)
-Installation
-Clone the repository:
+# Prerequisites
+# Before running the application, ensure you have the following installed:
+1. Python 3.x
+2. PostgreSQL
+3. pip (Python package installer)
+# Installation
+1. Clone the repository:
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
-Setup Virtual Environment:
+2. Setup Virtual Environment:
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
-Install Dependencies:
+3. Install Dependencies:
 pip install -r requirements.txt
-Database Setup:
+4. Database Setup:
 
 Create a PostgreSQL database.
 
